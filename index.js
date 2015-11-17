@@ -20,7 +20,7 @@ fs.readdir("./node_modules", function (err, dirs) {
             console.log(err);
           } else {
             var json = JSON.parse(data);
-            console.log('"'+json.name+'": "' + json.version + '",');
+            console.log('"' + json.name + '": "' + json.version + '",');
           }
         });
       }
