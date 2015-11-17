@@ -20,7 +20,5 @@
   ],
   "author": "Jerome T.K. Covington",
   "license": "GPL-3.0",
-  "dependencies": {
-    "commander": "2.9.0"
-  }
+  "dependencies": {}
 }
