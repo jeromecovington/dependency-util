@@ -1,0 +1,23 @@
+{
+  "name": "dependency-util",
+  "version": "0.0.1",
+  "description": "A collection of npm dependency utilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "npm",
+    "dependencies",
+    "utilities"
+  ],
+  "author": "Jerome T.K. Covington",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "commander": "2.9.0"
+  }
+}
