@@ -11,7 +11,7 @@ fs.readdir("./node_modules", function (err, dirs) {
     console.log(err);
     return;
   }
-  dirs.forEach(function(dir){
+  dirs.forEach(function (dir) {
     if (dir.indexOf(".") !== 0) {
       var packageJsonFile = "./node_modules/" + dir + "/package.json";
       if (fs.existsSync(packageJsonFile)) {
